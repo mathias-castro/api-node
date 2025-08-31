@@ -1,0 +1,16 @@
+{
+  "name": "api-users-basic",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node app.js",
+    "db": "node db.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "sqlite3": "^5.1.7"
+  }
+}
